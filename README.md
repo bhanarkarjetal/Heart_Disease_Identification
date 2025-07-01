@@ -14,30 +14,38 @@ Identifying the presence of heart diseases at an early stage can help to prevent
 
 The attributes in the dataset is interpreted as:
 - **age** (Feature): age of the patient in years
-- **sex** (Feature): sex of the patient (1: Male, 0: Female)
+- **sex** (Feature): sex of the patient 
+    - Value 1: Male
+    - Value 0: Female
 - **cp** (Feature): chest pain type 
-                - Value 1: typical angina
-                - Value 2: atypical angina
-                - Value 3: non-anginal pain 
-                - Value 4: asymptomatic
+    - Value 1: typical angina
+    - Value 2: atypical angina
+    - Value 3: non-anginal pain 
+    - Value 4: asymptomatic
 - **trestbps** (Feature): resting blood pressure in `mm Hg` on admission to the Hospital
 - **chol** (Feature): serum cholesterol in `mg/dl`
-- **fbs** (Feature): fasting blood sugar > 120 mg/dl (1: Yes, 0: No)
+- **fbs** (Feature): fasting blood sugar > 120 mg/dl 
+    - Value 1: Male
+    - Value 0: Female
 - **restecg** (Feature): resting electrocardiographic results
-                - Value 0: normal
-                - Value 1: having ST-T wave abnormality 
-                - Value 2: showing probable or definite left ventricualr hypertropy
+    - Value 0: normal
+    - Value 1: having ST-T wave abnormality 
+    - Value 2: showing probable or definite left ventricualr hypertropy
 - **thalach** (Feature): maximum heart rate achieved
-- **exang** (Feature): exercise induced angina (1: Yes, 0: No)
+- **exang** (Feature): exercise induced angina
+    - Value 1: Male
+    - Value 0: Female
 - **oldpeak** (Feature): ST depression induced by exercise relative to rest
 - **slope** (Feature): the slope of the peak exercise ST segment
-                - Value 1: upsloping
-                - Value 2: flat
-                - Value 3: downsloping
+    - Value 1: upsloping
+    - Value 2: flat
+    - Value 3: downsloping
 - **ca** (Feature): number of major vessels (0-3) colored by flourosopy
 - **thal** (Feature): blood disorder called "Thalassemia"
-                - Value 0: null (dropped from the dataset previously)
-                - Value 1: fixed defect (no blood flow in some part of the heart)
-                - Value 2: normal blood flow
-                - Value 3: reversible defect (a blood flow is observed but it is not normal)
-- **num** (Target): diagnosis of heart disease (0: Yes, 1: No)
+    - Value 0: null (dropped from the dataset previously)
+    - Value 1: fixed defect (no blood flow in some part of the heart)
+    - Value 2: normal blood flow
+    - Value 3: reversible defect (a blood flow is observed but it is not normal)
+- **num** (Target): diagnosis of heart disease 
+    - Value 1: Male
+    - Value 0: Female
